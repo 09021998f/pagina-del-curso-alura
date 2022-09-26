@@ -1,0 +1,58 @@
+html{
+	background-color: #B2E7DB;
+}
+
+
+p{
+	text-align: center;
+}
+#nav{
+	text-align: center;
+}
+
+#banner{
+	width: 65%;
+	padding: 0% 0% 0% 0%;
+	margin: 0% 10% 0% 18%;
+	border: 2px solid black;
+	/*padding-left: 25%;*/
+	
+}
+
+.title{
+	text-align: center;
+	background-color: #66BB6A;
+	padding: auto;
+	margin: 1% 30% 0% 30%;
+}
+
+
+.mision{
+	font-size: 20px;
+}
+
+.strong{
+	color: red;
+}
+
+.aspectos{
+	background-color: skyblue;
+	text-align: center;
+	margin: 0% 30% 2% 30%;
+	padding-bottom: 1%;
+}
+
+ul{
+	display: inline-block;
+	/*vertical-align: top;
+	width: 20%;
+	margin-right: 15%;*/
+}
+.img2{
+	width: 50%;
+	padding: 0% 25% 0% 25%;
+
+}
+#pie{
+	text-align: right;
+}

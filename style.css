@@ -1,0 +1,253 @@
+html{
+	width: auto;
+	background: linear-gradient(#FEFEFE, #888888);
+
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif
+}
+
+
+
+#inicio{
+	background-color: #697263;
+	padding: 20px 0;
+}
+
+
+
+.barra{
+	width: 1080px;
+	position: relative;
+	margin: 5px auto;
+}
+
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+	
+}
+
+nav li{
+	display: inline;
+	padding: 5px;
+}
+
+nav a{
+	
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
+nav a:hover{
+	color: darkred;
+
+}
+main{
+	padding: 1px;
+}
+
+
+.productos{
+	width: 1080px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.productos h2{
+	
+	font-size: 30px;
+	font-weight: bold;
+	box-sizing: border-box;
+
+}
+
+.productos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px;
+
+}
+
+.productos li:hover{
+	border: 2px solid darkred;
+	
+}
+
+.productos li:active{
+	border-color: darkgray;
+}
+
+.productos li:hover h2{
+	font-size: 31px;
+}
+
+.descripcion{
+	font-size: 18px;
+}
+
+.precio{
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer{
+
+	padding: 30px;
+	text-align: center;
+	background-color: #CCCCCC;
+	background: url(imagenes/bg.jpg);
+}
+
+.copy{
+	color: white;
+	font-size: 15px;
+	margin: 20px;
+}
+
+
+main{
+	width: auto;
+	margin: auto;
+}
+
+form{
+	margin: 40px 0;
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.input-padron{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.checkbox{
+	margin: 20px 0;
+}
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background-color: green;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+.enviar:hover{
+	background-color: darkgreen;
+	transform: scale(1.1);
+}
+table{
+	margin: 40px 40px;
+}
+
+thead{
+	background: gray;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid black;
+	padding: 8px 15px;
+}
+
+/*Css del Home*/
+.banner{
+	width: 100%;
+}
+
+.principal{
+	padding: 3em 0;
+	background-color: #FEFEFE;
+	width: auto;
+	margin: 0 auto;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.titulo-principal:first-letter{
+
+}
+
+.principal p{
+	margin: 0 0 1em;	
+}
+.principal strong{
+	font-weight: bold;
+}
+.principal em{
+	font-style: italic;
+	
+}
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.mapa{
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-contenido{
+	width: 1080px;
+	margin: 0 auto;
+}
+.aspectos{
+	padding: 3em 0;
+	background-color: #888888;
+}	
+.contenido-aspectos{
+	width: 640px;
+	margin: 0 auto;	
+}
+
+.lista-aspectos{
+	width: 40%;	
+	display: inline-block;
+	vertical-align: top;
+}
+
+.items{
+	line-height: 1.5;
+}
+
+.items:first-child{
+	font-weight: bold;
+}
+.items:before{
+	content: "♚ ";
+}
+
+.img2{
+	width: 60%;	
+}
+

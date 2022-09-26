@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<title>Pagina Web 2</title>
+</head>
+<body>
+
+	<header id="inicio">
+		<div class="barra">
+			<h1><img src="imagenes/logo.png"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="">Productos</a></li>
+					<li><a href="contactos.html">Contactenos</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<form>
+
+			<label for="nombreapellido">Nombre y Apellido</label>
+			<input type="" class="input-padron" id="nombreapellido" name="" required>
+
+			<label for="correoelectronico">Correo electronico</label>
+			<input type="email" class="input-padron" id="correoelectronico" name="">
+
+			<label for="telefono">Telefono</label>
+			<input type="tel" id="telefono" 
+			class="input-padron"name="">
+
+			<label for="mensaje">Mensaje</label>
+
+			<textarea cols="70" rows="10" id="mensaje" class="input-padron">Niño</textarea>
+		<fieldset>
+
+			<legend>Como quiere que lo contactemos?</legend>
+			<label for="radio-email"><input type="radio" id="radio-email" value="email" name="contacto">Email</label>
+			
+
+			<label for="radio-telefono"><input type="radio" id="radio-telefono" value="telefono" name="contacto">Telefono</label>
+			
+
+			<label for="radio-wasap"><input type="radio" id="radio-wasap" value="wasap" name="contacto">WhatsApp</label>
+			
+		</fieldset>
+		<fieldset>
+			<legend>Elija un turno!</legend>
+		<select>
+			<option>Mañana</option>
+			<option>Tarde</option>
+			<option>Tarde-noche</option>
+		</select>
+		</fieldset>	
+
+		<label  class="checkbox"><input type="checkbox" name="" checked>Le gustaria recibir noticia de nosotros?</label>
+		
+			<input class="enviar" type="submit" name="">
+		</form>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Dia</th>
+					<th>Horario</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Lunes</td>
+				<td>9am-4pm</td>
+			</tr>
+			<tr>
+				<td>Miercoles</td>
+				<td>9am-4pm</td>
+			</tr>
+			<tr>
+				<td>Viernes</td>
+				<td>9am-4pm</td>
+			</tr>
+			</tbody>
+		</table>		
+	</main>
+
+
+
+	<footer >
+		<img src="imagenes/logo-blanco.png">
+		<p class="copy">&copy Copyright Facundo Arias</p>
+	</footer>
+
+</body>
+</html>
